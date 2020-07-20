@@ -1,0 +1,8 @@
+unclutter &
+xcompmgr &
+xset r rate 300 50 &
+export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+xwallpaper --zoom ~/.arch.jpg
+status_60_sec_loop &
+#battery &
+( sleep 120; sudo /usr/bin/pacman -Syyy && status) &
