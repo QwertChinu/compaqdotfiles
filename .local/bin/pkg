@@ -1,6 +1,7 @@
 autoconf
 automake
 base
+bashtop
 bc
 binutils
 bison
