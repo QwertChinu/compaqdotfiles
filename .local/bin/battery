@@ -5,8 +5,8 @@ do
     capacity=$(cat /sys/class/power_supply/"BAT0"/capacity)
     status=$(cat /sys/class/power_supply/"BAT0"/status)
     [[ ( "$capacity" -gt "95"  &&  "$status" == "Charging" || "$status" == "Full")\
-    || ( "$capacity" -lt "20"  &&  "$status" == "Discharging" ) ]] && \
+    || ( "$capacity" -lt "30"  &&  "$status" == "Discharging" ) ]] && \
     mpv ~/.cache/bell.oga > /dev/null
 
-    sleep 2
+    sleep 5
 done &
