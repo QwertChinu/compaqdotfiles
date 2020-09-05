@@ -41,4 +41,5 @@ alias mo="xset dpms force off"
 alias fboot="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias play="mpv --ytdl-format=137+251"
 alias cfg='/usr/bin/git --git-dir=/home/chinu/.cfg/ --work-tree=/home/chinu'
-alias cssh="ssh 'chinu@192.168.1.104'"
+alias cssh="ssh 'chinu@192.168.1.105'"
+alias kf="xmodmap ~/.local/bin/keys_disable"
