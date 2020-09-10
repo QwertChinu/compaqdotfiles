@@ -43,3 +43,4 @@ alias play="mpv --ytdl-format=137+251"
 alias cfg='/usr/bin/git --git-dir=/home/chinu/.cfg/ --work-tree=/home/chinu'
 alias cssh="ssh 'chinu@192.168.1.105'"
 alias kf="xmodmap ~/.local/bin/keys_disable"
+alias fcaps="setxkbmap -option caps:escape"
